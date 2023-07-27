@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-class SpotifyHomePage extends StatefulWidget {
-  const SpotifyHomePage({super.key});
+class SpotifyPlayPage extends StatefulWidget {
+  const SpotifyPlayPage({super.key});
 
   @override
-  State<SpotifyHomePage> createState() => _SpotifyHomePageState();
+  State<SpotifyPlayPage> createState() => _SpotifyPlayPageState();
 }
 
-class _SpotifyHomePageState extends State<SpotifyHomePage> with SingleTickerProviderStateMixin {
+class _SpotifyPlayPageState extends State<SpotifyPlayPage> with SingleTickerProviderStateMixin {
 
   bool favButton = false;
   late AnimationController _controller;

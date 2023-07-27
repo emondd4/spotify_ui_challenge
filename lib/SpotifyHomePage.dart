@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:spotify_ui_challenge/SpotifySearchScreen.dart';
 import 'package:spotify_ui_challenge/SpotifyYourLibraryScreen.dart';
 
 class SpotifyHomePage extends StatefulWidget {
@@ -15,7 +16,7 @@ class _SpotifyHomePageState extends State<SpotifyHomePage> {
 
   final List<Widget> _pages = [
     Container(color: Colors.red), // Replace this with your desired pages
-    Container(color: Colors.green), // Replace this with your desired pages
+    const SpotifySearchPage(), // Replace this with your desired pages
     const SpotifyYourLibraryPage() // Replace this with your desired pages
   ];
 

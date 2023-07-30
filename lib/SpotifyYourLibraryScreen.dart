@@ -20,7 +20,7 @@ class _SpotifyYourLibraryPageState extends State<SpotifyYourLibraryPage> {
           child: Column(
             children: [
               Padding(
-                padding: EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 20.0),
+                padding: const EdgeInsets.fromLTRB(10.0, 20.0, 10.0, 20.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [

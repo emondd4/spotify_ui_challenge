@@ -81,7 +81,7 @@ class _SpotifySearchPageState extends State<SpotifySearchPage> {
                     SvgPicture.asset("assets/mic2.svg",height: 32.0,width: 32.0,color: Colors.white,)
                   ],
                 ),
-                const SizedBox(height: 20.0,),
+                const SizedBox(height: 20.0,), 
                 const Text("Browse all",
                     style: TextStyle(
                         fontFamily: 'Gotham',
